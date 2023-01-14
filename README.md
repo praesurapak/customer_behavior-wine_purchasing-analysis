@@ -48,7 +48,7 @@ The goal of this model is forming groups of similar customers, based on their tr
 
 <img width="281" alt="4" src="https://user-images.githubusercontent.com/112535634/212493007-ea472b8b-a831-471c-8ca4-b14987096a92.png">
 
-Figure 3: Cluster Analysis 1
+Figure 4: Cluster Analysis 1
 
 2. Ward Method Cluster Analysis
 
@@ -56,7 +56,7 @@ The second cluster analysis performed by Ward method, look at the group of the a
 
 <img width="280" alt="5" src="https://user-images.githubusercontent.com/112535634/212493049-19dfa174-ee2b-4788-9cc0-aba4982a6789.png">
 
-Figure 3: Cluster Analysis 2
+Figure 5: Cluster Analysis 2
 
 
 
