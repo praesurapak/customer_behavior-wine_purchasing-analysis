@@ -12,7 +12,9 @@ This analysis aims to help a business to better understand its customers and mak
 
 ## Supervised Model
 
-1. Linear Regression Model: The goal of this model is predicting the amount spent on wines, based on continuous predictors of customers' age and income as both predictors correlate with the amount spent on wine. 
+1. Linear Regression Model: 
+
+The goal of this model is predicting the amount spent on wines, based on continuous predictors of customers' age and income as both predictors correlate with the amount spent on wine. 
 
 <img width="298" alt="1" src="https://user-images.githubusercontent.com/112535634/212492877-bbc3cc89-53c3-4eb0-a91d-2c6c44a4853d.png">
 
@@ -26,7 +28,9 @@ In order to improve the linear model, we added more variables of number of child
 
 Figure 2: Linear Prediction Model on amount spent on wines, controlling for age, income, number of children, and number of purchases with promotion
 
-2. Regression Tree: The goal of this decision tree is predicting the value of the amount each customer spent on wine, based on the same set of numerical predictors used in linear prediction model.
+2. Regression Tree: 
+
+The goal of this decision tree is predicting the value of the amount each customer spent on wine, based on the same set of numerical predictors used in linear prediction model.
 
 <img width="302" alt="3" src="https://user-images.githubusercontent.com/112535634/212492950-3394c16a-2b2a-46c0-b7e1-e8efbed6b27d.png">
 
@@ -38,11 +42,15 @@ From the supervised model using historical data of the business, customers who h
 
 ## Unsupervised Model
 
-1. Cluster Analysis: The goal of this model is forming groups of similar customers, based on their transactions. The first cluster centered around the amount spent on meat and the amount spent on wine in last 2 years. We performed the K-means analysis with a number of 5 clusters. Red clusters, which contained 121 observations, are customers who spent on a lot of both meat and wine. From the findings, the business can come up with marketing strategies such as bundling meat and wines with discounted price for this particular cluster, which may help increasing their spendings.
+1. K-means Cluster Analysis: 
+
+The goal of this model is forming groups of similar customers, based on their transactions. The first cluster centered around the amount spent on meat and the amount spent on wine in last 2 years. We performed the K-means analysis with a number of 5 clusters. Red clusters, which contained 121 observations, are customers who spent on a lot of both meat and wine. From the findings, the business can come up with marketing strategies such as bundling meat and wines with discounted price for this particular cluster, which may help increasing their spendings.
 
 <img width="281" alt="4" src="https://user-images.githubusercontent.com/112535634/212493007-ea472b8b-a831-471c-8ca4-b14987096a92.png">
 
 Figure 3: Cluster Analysis 1
+
+2. Ward Method Cluster Analysis
 
 The second cluster analysis performed by Ward method, look at the group of the amount spent on wines and number of in-store purchases. There are two clusters generated. The data is displayed vertically because of the discrete data. We cannot accurately label the group using these two variables because one group rarely shops in the store rarely buy wine, while another group who goes to the store more often, some of them never buy wines, and some of them spend moderate to a high amount of money on wine. Therefore, this model might not provide much useful information for a business.
 
