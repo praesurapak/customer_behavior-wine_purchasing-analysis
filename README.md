@@ -1,16 +1,16 @@
-## customer_behavior-wine_purchasing-analysis
+# Customer Behavior & Wine Purchasing Analysis
 The analysis and prediction model of wine purchasing based on customer behavior, using R, concepts of statistical regression modeling (supervised models), and k-means cluster analysis (unsupervised models)
 
 This project is a final project of BUS-K 353: Business Analytics & Modeling class at IU Kelley School of Business 
 
 Group members: Prae Kongchan, Venus Chen, Yuqing Wang, and Yue Li
 
-## Overall Analysis Goal
+# Overall Analysis Goal
 This analysis aims to help a business to better understand its customers and makes it easier for them to target the right group of customers who are likely to buy wines. It may provide foundation information a firm can use to modify its marketing strategies based on customers’ specific characteristics, which allow the firm to spend the marketing budget most effectively and target specific customers most accurately. This analysis is based on data that contains customers’ background and promotion information of the firm.
 
-## Modeling Approaches
+# Modeling Approaches
 
-# Supervised Model
+## Supervised Model
 
 1. Linear Regression Model: The goal of this model is predicting the amount spent on wines, based on continuous predictors of customers' age and income as both predictors correlate with the amount spent on wine. 
 
@@ -36,7 +36,7 @@ From the tree, we will predict that a customer whose income is more than or equa
 
 From the supervised model using historical data of the business, customers who has higher income, less children in their household, and had more purchases with discounts are more likely to be the target group of wines sector for this particular business. Direct advertising or offering discounts to these customers may potentially lead to a higher sales in wines.
 
-# Unsupervised Model
+## Unsupervised Model
 
 1. Cluster Analysis: The goal of this model is forming groups of similar customers, based on their transactions. The first cluster centered around the amount spent on meat and the amount spent on wine in last 2 years. We performed the K-means analysis with a number of 5 clusters. Red clusters, which contained 121 observations, are customers who spent on a lot of both meat and wine. From the findings, the business can come up with marketing strategies such as bundling meat and wines with discounted price for this particular cluster, which may help increasing their spendings.
 
