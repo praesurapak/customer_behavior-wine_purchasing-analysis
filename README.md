@@ -1,7 +1,7 @@
 # Customer Behavior & Wine Purchasing Analysis
 The analysis and prediction model of wine purchasing based on customer behavior, using R, concepts of statistical regression modeling (supervised models), and cluster analysis (unsupervised models)
 
-This project is a final project of BUS-K 353: Business Analytics & Modeling class at IU Kelley School of Business 
+This project is a final project of BUS-K 353: Business Analytics & Modeling class at IU Kelley School of Business (Fall 2021)
 
 Group members: Prae Kongchan, Venus Chen, Yuqing Wang, and Yue Li
 
